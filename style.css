@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    font-family: 'Space Mono', monospace !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+.bg-area{
+    background-color: hsl(185, 41%, 84%);
+}
+
+.amount-section{
+    background-color: hsl(172, 67%, 45%);
+}
+
+.light-cyan-text{
+    color: hsl(184, 14%, 56%) !important ;
+}
+
+.primary-color{
+    color: hsl(172, 67%, 45%);
+}
+
+
+.tip-button{
+    color: white !important;
+    background-color: hsl(183, 100%, 15%) !important;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    height: 60px;
+    transition: 200ms;
+    margin: 0.5rem;
+}
+
+.active-tip{
+    background-color: red !important;
+}
+
+.button:hover{
+    background-color: hsl(172, 67%, 45%)!important;
+    color: black !important;
+}
+
+.button:active{
+    background-color: hsla(172, 67%, 45%, 0.657) !important;
+}
+
+.percent-input{
+    width: 100%;
+    height: 60px;
+    margin: 0.5rem;
+    background-color: hsl(185, 41%, 84%) !important;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    color: hsl(183, 100%, 15%);
+}
+
+.percent-input:focus{
+    color: hsl(183, 100%, 15%);
+}
+
+.border-radius{
+    border-radius: 20px 20px 0 0 !important;
+    overflow: hidden;
+}
+
+.bill-input{
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 15px;
+    padding-left: 80px !important;
+}
+
+.form-control{
+    background-color: hsl(185, 41%, 84%) !important;
+    border: none;
+}
+
+.form-control:focus {
+    border: 3px solid hsl(172, 67%, 45%) ;
+    box-shadow: none !important;   
+    
+}
+
+.number-input{
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 15px;
+    padding-left: 80px !important;
+}
+
+.focus-danger:focus{
+    border: 3px solid red !important;
+    box-shadow: none !important; 
+}
+
+.calculation{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.reset-btn{
+    background-color: hsl(172, 67%, 45%);
+    border-radius: 10px;
+    border: none;
+}
+
+.reset-btn:hover{
+    background-color: hsl(185, 41%, 84%);
+}
+
+
+
+
+@media  screen and (max-width :475px){
+    *{
+        font-size: 20px;
+    }
+    section.logo{
+        margin: 1rem;
+    }
+
+    .text-light{
+        font-size: 20px !important;
+        margin-bottom: 0;
+    }
+
+    .amount{
+        font-size: 36px !important;
+
+    }
+
+    .person-amount{
+        font-size: 18px !important;
+    }
+    
+    .calculation{
+        padding: 0.5rem;
+    }
+
+    .select-tip{
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .tip-calculation{
+        padding: 0;
+    }
+
+    .percent-input{
+        font-size: 20px !important;
+    }
+}
